@@ -4,9 +4,9 @@ site_url: https://siic-lv.github.io/docs-test/
 site_description: >-
   Mācību materiāli pamatskolas un vidusskolas programmēšanas skolotājiem.
 # Repository
-repo_name: siic-lv/docs-test
+# repo_name: siic-lv/docs-test
 repo_url: https://github.com/siic-lv/docs-test
-edit_uri: ""
+# edit_uri: ""
 
 # Copyright
 copyright: Copyright &copy; 2020 SIIC
