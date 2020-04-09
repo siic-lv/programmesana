@@ -1,0 +1,106 @@
+# Project information
+site_name: Programmēšanas mācību materiāli
+site_url: https://siic-lv.github.io/docs-test/
+site_description: >-
+  Mācību materiāli pamatskolas un vidusskolas programmēšanas skolotājiem.
+# Repository
+repo_name: siic-lv/docs-test
+repo_url: https://github.com/siic-lv/docs-test
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
+
+# Configuration
+theme:
+  name: material
+  language: en
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - tabs
+    #- instant
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+#   - minify:
+#       minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/siic-lv
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/siic
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: siic-lv
+      repo: docs-test
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Ievads: index.md
+  - Pamatskola:
+    - pamatskola/uzdevumi.md
+  - Vidusskola:
+    - vidusskola/uzdevumi.md
+  - Palīdzēt: palidzet.md
+  - Licenze: license.md
+
+# Google Analytics
+# google_analytics:
+#   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#   - auto
