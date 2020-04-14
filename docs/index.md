@@ -2,6 +2,7 @@
 
 Materiālu kopums programmēšanas mācīšanai pamatskolas un vidusskolas mācību posmā.
 
+Es gribētu pievienot šeit šādu tekstu, lūdzu.
 
 ## Uzdevumi pa vecumposmiem
 
