@@ -1,11 +1,11 @@
 # Project information
 site_name: Programmēšanas mācību materiāli
-site_url: https://siic-lv.github.io/docs-test/
+site_url: https://siic-lv.github.io/programmesana/
 site_description: >-
   Mācību materiāli pamatskolas un vidusskolas programmēšanas skolotājiem.
 # Repository
-# repo_name: siic-lv/docs-test
-repo_url: https://github.com/siic-lv/docs-test
+# repo_name: siic-lv/programmesana
+repo_url: https://github.com/siic-lv/programmesana
 # edit_uri: ""
 
 # Copyright
@@ -44,8 +44,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/siic-lv
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/siic
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/siic
 
 # Extensions
 markdown_extensions:
@@ -74,7 +74,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: siic-lv
-      repo: docs-test
+      repo: programmesana
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
