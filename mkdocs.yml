@@ -89,9 +89,15 @@ markdown_extensions:
 nav:
   - Ievads: index.md
   - Pamatskola:
-    - pamatskola/uzdevumi.md
+    - pamatskola/par.md
+    - pamatskola/4.klase.md
+    - pamatskola/5.klase.md
+    - pamatskola/6.klase.md
+    - pamatskola/7.klase.md
+    - pamatskola/8.klase.md
+    - pamatskola/9.klase.md
   - Vidusskola:
-    - vidusskola/uzdevumi.md
+    - vidusskola/par.md
   - Palīdzēt: palidzet.md
   - Licenze: license.md
 

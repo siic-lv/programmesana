@@ -2,30 +2,16 @@
 
 Materiālu kopums programmēšanas mācīšanai pamatskolas un vidusskolas mācību posmā.
 
+## Uzdevumu veidi
 
-## Uzdevumi pa vecumposmiem
+### Pamatskola
 
-### 1. - 3. klase
+4.-6. klase - Scratch
 
-- bez datora
-- ar datoru
+7.-9. klase - valodas agnostiski, valodas specifiski (Python, JS), projektu piemēri
 
-### 4. - 6. klase
+### Vidusskola
 
-- Scratch
-- Roboti
-- ...
+Programmēšana I - Python, JS, projektu piemēri
 
-### 7. - 9. klase
-
-- visām valodām
-- Javascript
-- Python
-- projektu piemēri
-
-## Uzdevumi pēc izmantotās valodas
-
-- Python
-- Javascript
-- Java
-- C++
+Programmēšana II - Python, JS, projektu piemēri
