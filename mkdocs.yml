@@ -103,6 +103,8 @@ nav:
   - Palīdzēt: palidzet.md
   - Licenze: license.md
 
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML  
 # Google Analytics
 # google_analytics:
 #   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
