@@ -1,6 +1,7 @@
 # Programmēšanas mācību materiāli
 
 Materiālu kopums programmēšanas mācīšanai pamatskolas un vidusskolas mācību posmā.
+Izejas failu repozitorijs šim materiālu resursam atrodas šeit: https://github.com/siic-lv/programmesana
 
 ## Uzdevumu veidi
 
