@@ -10,7 +10,7 @@ assignees: ''
 **Kam domāts materiāls?**
 Kurai klasei, kādas grūtības pakāpes uzdevums.
 
-**Uzdevuma teksts**
+**Uzdevuma nosaukums un teksts**
 Uzdevuma apraksts, ar konkrētām prasībām skolēnam.
 
 **Papildus informācija**
