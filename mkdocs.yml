@@ -36,6 +36,7 @@ theme:
 # Plugins
 plugins:
   - search
+# - htmlproofer # checks outside URL validity, makes build super slow
 #   - minify:
 #       minify_html: true
 
@@ -99,8 +100,8 @@ nav:
   - Vidusskola:
     - vidusskola.md
     - vidusskola/p1.md
-    - vidusskola/p2.md
-  - Palīdzēt: palidzet.md
+    - vidusskola/p2_vienibu_testi.md
+  - Uzlabo materiālus: palidzet.md
   - Licenze: license.md
 
 extra_javascript:
