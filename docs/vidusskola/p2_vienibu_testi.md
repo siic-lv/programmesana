@@ -121,7 +121,7 @@
 ## Izstrāde no specifikācijas
 
 !!! question "Uzdevums"
-    Uzrakstīt specifikācijai atbisltošu programmu un testus, kas pārbauda visu galveno funkcionalitāti (skat. happy path testing [^1]).
+    Uzrakstīt specifikācijai atbisltošu programmu un testus, kas pārbauda visu galveno funkcionalitāti (skat. zemsvītras piezīmi [^1]).
 
 ??? info "Specifikācija"
 
