@@ -2,9 +2,9 @@ def format_user(userdata, format):
     result = ""
     u = userdata["name"]
     if format == "greeting":
-        result = "{} {} {}".format(u["title"], u["first"], u["last"])
+        result = "{}, {} {}".format(u["title"], u["first"], u["last"])
     elif format == "short":
-        result = "{} {}".format(u["title"], u["last"])
+        result = "{}{}".format(u["title"], u["last"])
     elif format == "country":
         result = userdata["nat"]
     elif format == "table":

@@ -7,7 +7,7 @@
 !!! question "Uzdevums"
     Aplūko dotās funkcijas un testu piemērus! Pieraksti papildus testus, atrodi kļūdu vienā no programmām un izlabo to!
 
-!!! example "Programmas kods"
+??? example "Programmas un testu kods"
 
     === "fibonacci.py"
 
@@ -21,7 +21,7 @@
         --8<-- "src/python/vsk2/test_fibonacci_vienkarsi.py"
         ``` 
 
-??? info "Valodas sintakse"
+??? tip "Valodas sintakse"
 
     === "Python"
 
@@ -37,10 +37,22 @@
 ### Parametrizēts Fibonacci tests
 
 !!! question "Uzdevums"
-    Salīdzini testu ar iepriekšējo.
-    Pieraksti papildus parametrus, reflektē kā tas atvieglo testu rakstīšanu!
+    Salīdzini testu `test_fibonacci_parametrizets.py` ar `test_fibonacci_vienkarsi.py`.
+    Pieraksti papildus parametrus testā `test_fibonacci_parametrizets.py`, reflektē kā tas atvieglo testu rakstīšanu!
 
-!!! example "Testu piemēri"
+??? example "Programmas un testu kods"
+
+    === "fibonacci.py"
+
+        ``` python
+        --8<-- "src/python/vsk2/fibonacci.py"
+        ```
+
+    === "test_fib.py"
+
+        ``` python
+        --8<-- "src/python/vsk2/test_fibonacci_vienkarsi.py"
+        ``` 
 
     === "test_fibonacci_parametrizets.py"
 
@@ -58,7 +70,7 @@
     Pabeidz funkcionalitāti, lai visi testi sekmīgi izpildītos.
     Izdomā vēl kādu ievades teksta piemēru, kas varētu nestrādāt. Uzraksti tam testu un, ja nepieciešams, izlabo funkcionalitāti.
 
-!!! example "Vienību testi"
+??? example "Programmas un testu kods"
 
     === "titlecase.py"
 
@@ -77,22 +89,22 @@
 ### Lietotāju datu formatēšanas programma
 
 !!! question "Uzdevums"
-    Izlasi specifikāciu un programmas kodu. Uzraksti vienības testus dotajai programmai, kas pārbauda abilstību specifikācijai.
+    Izlasi specifikāciju un programmas kodu. Uzraksti vienības testus dotajai programmai, kas pārbauda abilstību specifikācijai.
 
-!!! info "Specifikācija"
+??? info "Specifikācija"
 
-    Nepieciešama funkcija, kas pieņem un apstrādā divus argumentus: lietotāja datus (dictionary datu tips) un formātu (string) un atgriež attiecīgi saformatētu string.
+    Nepieciešama funkcija, kas pieņem un apstrādā divus argumentus: lietotāja datus (dictionary datu tips) un formātu (string) un atgriež attiecīgi noformatētu tekstu.
 
     Iespējamie formāta nosaukumi un sagaidāmais rezultāts:
 
-    formāts  | atgrieztā vērtība
-    ---------|------------------
-    greeting | "Title First Last" 
-    short    | "Title Last"
-    country  | "Nat"
-    table    | "First \| Last \| Title \| Nat"
+    formāta nosaukums   | rezultāta formāts  | piemērs
+    --------------------|--------------------|---------
+    greeting            | "Title First Last" | "Dr Uga Dumpis" 
+    short               | "Title Last"       | "Dr Dumpis"
+    country             | "Nat"              | "LV"
+    table               | "First \| Last \| Title \| Nat" | "Uga \| Dumpis \| Dr \| LV"
 
-??? example "Funkcija"
+??? example "Programmas un testu kods"
 
     === "formatuser.py"
 
@@ -109,4 +121,18 @@
 ## Izstrāde no specifikācijas
 
 !!! question "Uzdevums"
-    Uzrakstīt programmu un testus.
+    Uzrakstīt specifikācijai atbisltošu programmu un testus, kas pārbauda visu galveno funkcionalitāti (skat. happy path testing [^1]).
+
+??? info "Specifikācija"
+
+    === "Piemērs 1"
+
+        Kaut kāds apraksts
+
+    === "Piemērs 2"
+
+        Cits apraksts
+
+----
+
+[^1]: [Happy path testing](https://en.wikipedia.org/wiki/Happy_path)
