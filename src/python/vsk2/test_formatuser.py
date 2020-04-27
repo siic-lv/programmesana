@@ -1,7 +1,10 @@
 import pytest
+from formatuser import format_user
 
 
-users = [
+@pytest.fixture
+def example_people():
+    return [
         {"name": {"title": "Miss", "first": "Melike", "last": "Karaböcek"}, "nat": "TR"},
         {"name": {"title": "Mrs", "first": "Ingeborg", "last": "Halvorsrud"}, "nat": "NO"}, 
         {"name": {"title": "Dr", "first": "Maeva", "last": "Fabre"}, "nat": "CH"}, 
@@ -10,6 +13,6 @@ users = [
         ]
 
 
-def test_format_table():
-    result = format_user(users[3], "table")
-    assert true
+def test_format_table(example_people):
+    result = format_user(example_people[3], "table")
+    assert True
