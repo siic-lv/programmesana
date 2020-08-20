@@ -17,9 +17,9 @@
         - Specifikācijas pielikumā ir pievienots iepriekš veidotu prognožu arhīvs. To ir jāizmanto kā materiālu tādu teksta frāžu saraksta izveidošanai, ko pēc tam ir iespējams izmantot automātiskai teksta ģenerēšanai.
         - Funkcijai jāizvada uz ekrāna teksts divpadsmit horoskopa zīmju astroloģiskajām prognozēm: vispirms vienā rindā virsraksts, tad jaunā rindā prognozes teksts. Neviens teikums nedrīkst atkārtoties.
         - Teikumi ir veidoti pēc kāda no šiem trafaretiem (bet var pievienot vēl citus!):
-            - Apgalvojums: <divdabja teiciens>, <apgalvojums>.
-            - Apgalvojums: <apgalvojums>, <apgalvojums>
-            - Rīkojums: <rīkojums>
+            - Apgalvojums: *divdabja teiciens*, *apgalvojums*.
+            - Apgalvojums: *apgalvojums*, *apgalvojums*
+            - Rīkojums: *rīkojums*
         - Vienas prognozes teksts sastāv no 3 līdz 4 apgalvojuma teikumiem, un dažreiz noslēdzas ar uzmundrinošu vai brīdinošu rīkojuma teikumu.
 
 ??? example "Programmas kods"
