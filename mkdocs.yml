@@ -100,9 +100,10 @@ nav:
   - Vidusskola:
     - vidusskola.md
     - vidusskola/projekti.md 
-    - vidusskola/p1.md
-    - vidusskola/p1/specifikacija.md
-    - vidusskola/p2/vienibu_testi.md
+    - Programmēšana I:
+      - Specifikācija: vidusskola/p1/specifikacija.md
+    - Programmēšana II:
+      - Automātiskā testēšana: vidusskola/p2/vienibu_testi.md
   - Uzlabo materiālus: palidzet.md
   - Licenze: license.md
 

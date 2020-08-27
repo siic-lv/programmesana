@@ -12,13 +12,13 @@
     === "fibonacci.py"
 
         ``` python
-        --8<-- "src/python/vsk2/fibonacci.py"
+        --8<-- "src/vidusskola/p2/python/fibonacci.py"
         ```
 
     === "test_fib.py"
 
         ``` python
-        --8<-- "src/python/vsk2/test_fibonacci_vienkarsi.py"
+        --8<-- "src/vidusskola/p2/python/test_fibonacci_vienkarsi.py"
         ``` 
 
 ??? tip "Valodas sintakse"
@@ -45,19 +45,19 @@
     === "fibonacci.py"
 
         ``` python
-        --8<-- "src/python/vsk2/fibonacci.py"
+        --8<-- "src/vidusskola/p2/python/fibonacci.py"
         ```
 
     === "test_fib.py"
 
         ``` python
-        --8<-- "src/python/vsk2/test_fibonacci_vienkarsi.py"
+        --8<-- "src/vidusskola/p2/python/test_fibonacci_vienkarsi.py"
         ``` 
 
     === "test_fibonacci_parametrizets.py"
 
         ``` python
-        --8<-- "src/python/vsk2/test_fibonacci_parametrizets.py"
+        --8<-- "src/vidusskola/p2/python/test_fibonacci_parametrizets.py"
         ``` 
 
 ## :small_orange_diamond: TDD pieeja
@@ -75,13 +75,13 @@
     === "titlecase.py"
 
         ``` python
-        --8<-- "src/python/vsk2/titlecase.py"
+        --8<-- "src/vidusskola/p2/python/titlecase.py"
         ```
 
     === "test_title_case.py"
 
         ``` python
-        --8<-- "src/python/vsk2/test_title_case.py"
+        --8<-- "src/vidusskola/p2/python/test_title_case.py"
         ``` 
 
 ## Vienību testi gatavai programmai
@@ -109,13 +109,13 @@
     === "formatuser.py"
 
         ``` python
-        --8<-- "src/python/vsk2/formatuser.py"
+        --8<-- "src/vidusskola/p2/python/formatuser.py"
         ```
 
     === "test_formatuser.py"
 
         ``` python
-        --8<-- "src/python/vsk2/test_formatuser.py"
+        --8<-- "src/vidusskola/p2/python/test_formatuser.py"
         ``` 
 
 ## Izstrāde no specifikācijas
