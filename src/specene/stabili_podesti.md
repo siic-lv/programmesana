@@ -29,8 +29,6 @@
     === "Python"
 
         ``` python
-            import math
-
             def materialuAprekins(garums, platums, augstums, skaits):
 
                 materialaUzskaite(tips, izmers1, izmers2, skaits)
