@@ -1,1 +1,3 @@
-# Programmēšana I - Datu apstrāde
+# Datu apstrāde
+
+Drīzumā...
