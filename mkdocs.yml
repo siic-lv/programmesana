@@ -99,12 +99,14 @@ nav:
     - pamatskola/9.klase.md
   - Vidusskola:
     - vidusskola.md
-    - vidusskola/projekti.md 
-    - vidusskola/p1.md
-    - vidusskola/p1/specifikacija.md
-    - vidusskola/p1/lietotaji.md
-    - vidusskola/p1/datu_apstrade.md
-    - vidusskola/p2/vienibu_testi.md
+    - vidusskola/projekti.md
+    - Programmēšana I:
+      - vidusskola/p1.md
+      - vidusskola/p1/specifikacija.md
+      - vidusskola/p1/lietotaji.md
+      - vidusskola/p1/datu_apstrade.md
+    - Programmēšana II:
+      - vidusskola/p2/vienibu_testi.md
   - Uzlabo materiālus: palidzet.md
   - Licenze: license.md
 

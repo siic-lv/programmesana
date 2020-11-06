@@ -1,4 +1,4 @@
-# Programmēšana I - Lietotāju izpēte
+# Lietotāju izpēte
 
 !!! tip "Kā lietot piemērus?"
 

@@ -1,9 +1,9 @@
-# Programmēšana I - Specifikācija
+# Specifikācija
 
---8<-- "src/specene/ievarijums.md"
+--8<-- "docs/vidusskola/p1/ievarijums.md"
 
---8<-- "src/specene/gridas_izmaksas.md"
+--8<-- "docs/vidusskola/p1/gridas_izmaksas.md"
 
---8<-- "src/specene/stabili_podesti.md"
+--8<-- "docs/vidusskola/p1/stabili_podesti.md"
 
---8<-- "src/specene/horoskopu_generators.md"
+--8<-- "docs/vidusskola/p1/horoskopu_generators.md"
