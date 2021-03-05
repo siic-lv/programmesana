@@ -2,7 +2,7 @@ import math
 
 def gridas_izmaksa(cena, linoleja_platums, telpas_platums, telpas_garums):
     telpas_izmers = math.ceil(telpas_garums) * math.ceil(telpas_platums)
-    izmaksa = telpas_izmers / linoleja_platums
+    izmaksa = cena * telpas_izmers / linoleja_platums
 
     return izmaksa
 
