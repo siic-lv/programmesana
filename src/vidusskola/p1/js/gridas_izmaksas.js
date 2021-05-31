@@ -1,6 +1,6 @@
 function gridas_izmaksas(cena, linoleja_platums, telpas_platums, telpas_garums) {
     var telpas_izmers = Math.ceil(telpas_garums) * Math.ceil(telpas_platums);
-    var izmaksa = telpas_izmers / linoleja_platums;
+    var izmaksa = cena * telpas_izmers / linoleja_platums;
 
     return izmaksa;
 }
