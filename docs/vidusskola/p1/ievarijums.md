@@ -12,19 +12,29 @@
 
     === "Slikti formulēta specifikācija"
         Funkcijai jāaprēķina cik izmaksās ābolu ievārījums
+    === "Labi formulēta specifikācija"
+        - Nepieciešama iespēja definēt recepti un tās sastāvdaļas 
+        - Nepieciešama iespēja definēt, cik maksā katra sastāvdaļa
+        - Sistēmai jāaprēķina kopējās ievārījuma izmaksas, balstoties uz ievadīto ābolu apjomu
 
 ??? example "Programmas kods"
 
-    === "Variants 1"
+    === "Variants 1 (Python)"
 
         ``` python
         --8<-- "src/vidusskola/p1/python/ievarijums1.py"
         ```
 
-    === "Variants 2"
+    === "Variants 2 (Python)"
 
         ``` python
         --8<-- "src/vidusskola/p1/python/ievarijums2.py"
+        ```
+
+    === "Variants 3 (JS)"
+
+        ``` python
+        --8<-- "src/vidusskola/p1/js/ievarijums2.js"
         ```
 
 ??? info "Komentāri"
